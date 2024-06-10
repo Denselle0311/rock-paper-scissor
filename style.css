@@ -15,6 +15,7 @@
     flex-direction: column;
     margin: 10% 0 10%;
     width: 1440px;
+    position: relative;
   }
   
   img, picture, video, canvas, svg {
@@ -32,4 +33,29 @@
     align-items: center;
     gap: 8px;
     margin-top: 16px;
+  }
+
+  .modal {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    height: 500px;
+    background-color: rgb(228, 223, 153);
+  }
+
+  .modal h1 {
+    color: red;
+    font-size: larger;
+    font-weight: 800;
+  }
+  .modal p {
+    color: green;
+  }
+  .modal span {
+    color: black;
+    font-size: larger;
+    font-weight: 500;
   }
